@@ -1,0 +1,12 @@
+dmypy.json
+.dmypy.json
+
+#pure type checker
+.pyre/
+.pytype/
+
+#cython debug symbols
+cython_debug/
+
+#dataset
+artifacts/*
