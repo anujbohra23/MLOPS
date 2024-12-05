@@ -563,3 +563,71 @@ x==========x]
 [2024-12-04 14:17:20,986: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-12-04 18:20:14,562: INFO: stage_01_data_ingestion: >>>> stage Data Ingestion Stage started <<<<<]
+[2024-12-04 18:20:14,577: INFO: common: yaml file: C:\Users\Anuj Bohra\Desktop\MLOPSSSS\config\config.yaml loaded successfully]
+[2024-12-04 18:20:14,581: INFO: common: yaml file: C:\Users\Anuj Bohra\Desktop\MLOPSSSS\params.yaml loaded successfully]
+[2024-12-04 18:20:14,583: INFO: common: created directory at: artifacts]
+[2024-12-04 18:20:14,584: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-04 18:20:16,933: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8DB3:34D413:114802:15795F:67505009
+Accept-Ranges: bytes
+Date: Wed, 04 Dec 2024 12:50:18 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4746-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1733316618.929248,VS0,VE980
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cef16bd47bbfde330ce6441e095e211f3c8f6aae
+Expires: Wed, 04 Dec 2024 12:55:18 GMT
+Source-Age: 1
+
+]
+[2024-12-04 18:20:18,693: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage completed <<<<<
+
+x=========x]
+[2024-12-04 18:20:50,717: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-12-04 18:20:54,326: INFO: stage_02_prepare_base_model: *******************]
+[2024-12-04 18:20:54,326: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-12-04 18:20:54,334: INFO: common: yaml file: C:\Users\Anuj Bohra\Desktop\MLOPSSSS\config\config.yaml loaded successfully]
+[2024-12-04 18:20:54,341: INFO: common: yaml file: C:\Users\Anuj Bohra\Desktop\MLOPSSSS\params.yaml loaded successfully]
+[2024-12-04 18:20:54,343: INFO: common: created directory at: artifacts]
+[2024-12-04 18:20:54,345: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-12-04 18:20:55,882: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-04 18:20:56,393: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-12-04 18:21:13,548: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-12-04 18:21:15,303: INFO: stage_03_training: *******************]
+[2024-12-04 18:21:15,303: INFO: stage_03_training: >>>>>> stage Training started <<<<<<]
+[2024-12-04 18:21:15,312: INFO: common: yaml file: C:\Users\Anuj Bohra\Desktop\MLOPSSSS\config\config.yaml loaded successfully]
+[2024-12-04 18:21:15,319: INFO: common: yaml file: C:\Users\Anuj Bohra\Desktop\MLOPSSSS\params.yaml loaded successfully]
+[2024-12-04 18:21:15,321: INFO: common: created directory at: artifacts]
+[2024-12-04 18:21:15,603: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2024-12-04 18:21:15,605: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2024-12-04 18:21:15,982: INFO: common: created directory at: artifacts\training]
+[2024-12-04 18:23:45,404: INFO: stage_03_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-12-04 18:24:03,428: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-12-04 18:24:05,193: INFO: stage_04_model_evaluation: *******************]
+[2024-12-04 18:24:05,193: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-12-04 18:24:05,201: INFO: common: yaml file: C:\Users\Anuj Bohra\Desktop\MLOPSSSS\config\config.yaml loaded successfully]
+[2024-12-04 18:24:05,204: INFO: common: yaml file: C:\Users\Anuj Bohra\Desktop\MLOPSSSS\params.yaml loaded successfully]
+[2024-12-04 18:24:05,206: INFO: common: created directory at: artifacts]
+[2024-12-04 18:24:45,672: INFO: common: json file saved at: scores.json]
+[2024-12-04 18:24:45,673: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

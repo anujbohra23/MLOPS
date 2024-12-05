@@ -12,6 +12,7 @@ stages:
     deps:
       - src/CNN_Classifier/pipeline/stage_02_prepare_base_model.py
       - config/config.yaml
+
     params:
       - IMAGE_SIZE
       - INCLUDE_TOP
